@@ -1,8 +1,10 @@
 
 import './App.css'
 import Counter from './couner'
+import DulalExHistory from './DulalExHistory'
 import Mycount from './Mycount'
 import ProductList from './ProductList'
+import Towcounter from './Towcounter'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
 
       <ProductList></ProductList>
       <Mycount></Mycount>
+      <Towcounter/>
+      <DulalExHistory></DulalExHistory>
     </>
   )
 }
